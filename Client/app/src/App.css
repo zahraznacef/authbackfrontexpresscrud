@@ -1,0 +1,460 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  font-family: 'Work Sans', sans-serif;
+}
+
+.nav
+{
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  z-index: 999;
+}
+
+.automobiletn
+{
+  position: relative;
+  bottom:50px;
+}
+
+.nav-ul
+{
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  height: 100%;
+  align-items: center;
+}
+
+.nav-li
+{
+  display: flex;
+  list-style-type: none;
+  height: inherit;
+  width: inherit;
+}
+.nav-li:hover
+{
+  background-color: red;
+}
+
+
+.nav-a
+{
+  text-transform: uppercase;
+  font-size: 17px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav-a:hover{
+  color: white;
+}
+
+
+.mainimgs
+{
+  height: calc(100vh - 50px);
+  width: 100%;
+}
+
+.slider-h3
+{
+  color: #d90000;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.slider-p
+{
+  font-size: 25px;
+  margin: 0;
+}
+
+.slider-box
+{
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 70px;
+  padding: 20px;
+}
+
+.nonetype
+{
+  list-style: none;
+}
+
+
+
+.home-widget
+{
+  width: 90%;
+  height: auto;
+  position: relative;
+  left: 5%;
+}
+
+.tabs
+{
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  display: flex;
+}
+
+.tabs-li
+{
+  list-style: none;
+  width: 150px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.tabs-p
+{
+  color: #d90000;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom:0px;
+}
+
+.tabs-li-active
+{
+  background-color: #3d3d3d;
+}
+.tabs-li-active p
+{
+  color: white;
+}
+
+.tabs-content
+{
+  height: 250px;
+  width: 100%;
+  box-shadow: 1px 1px 3px 1px rgb(0 0 0 / 20%);
+}
+
+
+.occasioncars
+{
+  height: auto;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.occasionp
+{
+  text-transform: uppercase;
+  padding: 30px 0px 30px 20px;
+}
+
+.occasion-container
+{
+  display: flex;
+}
+
+.occasion-filter
+{
+  width: 24%;
+  height: auto;
+}
+
+.occasion-filter-li
+{
+  display: flex;
+  list-style-type: none;
+  line-height: 2.8rem;
+  cursor: pointer;
+}
+
+.occasion-filter-li img
+{
+  height: 14px;
+  align-self: center;
+}
+
+.occasion-filter-span
+{
+  padding-left: 10px;
+}
+
+.occasioncard
+{
+  display: flex;
+  margin-top: 40px;
+}
+
+.occasionimg
+{
+  max-width: 265px;
+  max-height: 199px;
+}
+
+.occasion-cards
+{
+  width: 100%;
+  padding-left: 10px;
+}
+
+.occasion-card-content
+{
+  padding-left: 20px;
+  width: 100%;
+}
+
+.occasion-card-header
+{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.occasion-card-content-h2,
+.occasion-card-content-price
+{
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.occasion-card-content-price
+{
+  color: #d90000;
+  font-weight: 900;
+}
+
+.occasion-description-p
+{
+  font-size: .9rem;
+  max-height: 59px;
+  overflow: hidden;
+}
+
+.occasion-info-ul
+{
+  display: flex;
+}
+
+.occasion-info-li
+{
+  list-style-type: none;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.occasion-info-div
+{
+  text-align: center;
+}
+.occasion-icon
+{
+  height: 16px;
+  align-self: center;
+  margin-right: 5px;
+}
+
+.occasion-info-year-content
+{
+  text-align: center;
+  font-weight: bold;
+}
+
+.authheader
+{
+  height: auto;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signin
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signinheader
+{
+  text-align: center;
+}
+
+.forminputs
+{
+  padding: 10px;
+  width: 100%;
+  margin: 20px;
+  outline: none;
+  transition: .2s ease-in-out;
+}
+
+.forminputs:valid
+{
+  border: 1px solid var(--bs-green);
+}
+
+.forminputs:invalid
+{
+  border: 1px solid var(--bs-red);
+}
+
+.signinsubmit
+{
+  outline: none;
+  background-color: #ffffff;
+  padding: 5px;
+  margin: 20px;
+  color: black;
+  border: 1px solid green;
+}
+
+
+
+
+.footer
+{
+  width: 100%;
+  height: 500px;
+  background-image: url(https://www.automobile.tn/images/bg_footer.gif);
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content
+{
+  height: 100%;
+  width: 800px;
+  padding: 40px;
+}
+
+.footer-row
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 50%;
+}
+
+.footer-ul
+{
+  width: calc(100% / 3);
+}
+
+.footer-li-header
+{
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.footer-li-header a
+{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.footer-li
+{
+  list-style: none;
+}
+
+.footer-li a
+{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  transition: .2s ease-in-out;
+}
+
+.footer-li a:hover
+{
+  color: #d90000;
+}
+
+.socialmedia
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-column
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+}
+
+.socialmedia-ul
+{
+  margin: 0;
+  padding: 0;
+}
+
+.footer-icons
+{
+  height: 32px;
+  margin-right: 20px;
+}
+
+.restezconnecte
+{
+  color: white;
+  text-transform: uppercase;
+}
+
+.newsletterinput
+{
+  outline: none;
+  border: none;
+  height: 50px;
+  padding-left: 20px;
+}
+
+.newslettersubmit
+{
+  outline: none;
+  border: none;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  background-color: #d90000;
+  margin-bottom: 20px;
+}
+
+.powered
+{
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  transition: .1s ease-in;
+}
+
+
+
+.columnflex
+{
+  flex-direction: column;
+}
